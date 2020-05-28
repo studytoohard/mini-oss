@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>cn.hannahl.mini</groupId>
+    <artifactId>oss</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>mini-oss</name>
+    <description>最简代码实现oss上传</description>
+
+    <properties>
+        <java.version>1.8</java.version>
+        <spring-framework.version>5.2.6.RELEASE</spring-framework.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <scope>compile</scope>
+            <version>${spring-framework.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.minio</groupId>
+            <artifactId>minio</artifactId>
+            <version>3.0.10</version>
+        </dependency>
+    </dependencies>
+
+</project>
